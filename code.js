@@ -1,4 +1,9 @@
+// This takes an existing terrain and creates plains in it,
+// that are plain:y enough that they're almost entirely flat,
+// but not so flat that they're unnatural. _Right_ before they get perfectly flat, the algorithm stops.
+
 // If i don't misremember, base is the height you want the plains to be at
+
 if (heightmap[fi1][fj1][fi][fj] < base)
 {
         heightmap[fi1][fj1][fi][fj] = base+heightmap[fi1][fj1][fi][fj]*0.5;
