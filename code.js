@@ -1,3 +1,4 @@
+// If i don't misremember, base is the height you want the plains to be at
 if (heightmap[fi1][fj1][fi][fj] < base)
 {
         heightmap[fi1][fj1][fi][fj] = base+heightmap[fi1][fj1][fi][fj]*0.5;
