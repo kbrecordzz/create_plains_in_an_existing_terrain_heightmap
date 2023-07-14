@@ -1,5 +1,4 @@
-# create_plains_in_an_existing_terrain_heightmap
-Creates plains in an existing terrain heightmap
+# Create plains in an existing terrain heightmap
 
 In Javascript. Read it, learn how it works and implement it in your own way. This is just a code example and not a full program.
 
